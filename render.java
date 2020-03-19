@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PI_Jogo_Final;
+package pi_jogo_final;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Graphics; //eh necessário para conseguir alterar o método paint
