@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PI_Jogo_Final;
+package pi_jogo_final;
 /**
  *
  * @author rodrigoaoki
