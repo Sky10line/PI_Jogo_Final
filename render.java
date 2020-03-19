@@ -14,12 +14,11 @@ import java.awt.Font;
  * @author rodrigoaoki
  */
 public class render extends JFrame{
-    public render(int x, int y){
+    public render(){
         super("PI"); //inicia uma variavel como sendo a tela
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //set do botao "x" para fechar a tela que abre
-        //this.setLocationRelativeTo(null);//set para que a posição da janela seja no meio
-        this.setSize(x, y); //set de tamanho da tela
-        this.setResizable(false);
+        this.setExtendedState(MAXIMIZED_BOTH); //extende toda a tela
+        this.setUndecorated(true); //Desaparece a barra superior
     }
     
     public void add_panel(){
