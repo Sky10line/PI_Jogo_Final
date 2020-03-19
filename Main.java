@@ -14,7 +14,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        render screen = new render(800, 600);
+        render screen = new render();
         screen.setVisible(true);
         screen.add_panel();
         
