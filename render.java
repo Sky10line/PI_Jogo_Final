@@ -18,23 +18,21 @@ public class render extends JFrame{
         super("PI"); //inicia uma variavel como sendo a tela
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //set do botao "x" para fechar a tela que abre
         this.setExtendedState(MAXIMIZED_BOTH); //extende toda a tela
+        this.setBackground(Color.black);
         this.setUndecorated(true); //Desaparece a barra superior
     }
     
     public void add_panel(){
         JPanel painel = new JPanel();
         this.add(painel);
-        painel.setBackground(Color.white);
+        painel.setBackground(Color.black);
     }
     
     @Override
     public void paint(Graphics g) {
-        g.setColor(Color.black);
+        g.setColor(Color.LIGHT_GRAY);
+        g.fillRect(550, 150, 800, 700); 
         
-        g.fillOval(150, 200, 200, 40); g.setColor(Color.red);
-        g.fillOval(100, 80, 150, 150); g.setColor(Color.pink);
-        g.fillOval(120, 105, 30, 30); g.setColor(Color.blue);
-        g.setFont(new Font("Arial Bold", Font.PLAIN, 36)); g.drawString("Projeto Integrador III", 30, 450);
 }
 
 }
