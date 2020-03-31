@@ -32,6 +32,8 @@ public class render extends JFrame{
     public void paint(Graphics g) {
         g.setColor(Color.LIGHT_GRAY);
         g.fillRect(550, 150, 800, 700); 
+        g.setColor(Color.red);
+        g.fillRect(600, 200, 800, 700); 
         
 }
 

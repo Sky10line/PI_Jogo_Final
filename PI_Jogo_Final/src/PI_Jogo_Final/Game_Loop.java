@@ -4,17 +4,16 @@
  * and open the template in the editor.
  */
 package PI_Jogo_Final;
+
 /**
  *
  * @author rodrigoaoki
  */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       Game_Loop Jogo = new Game_Loop();
+public class Game_Loop {
+    public Game_Loop(){
+        render screen = new render();
+        screen.setVisible(true);
+        screen.add_panel();
+        
     }
-    
 }
