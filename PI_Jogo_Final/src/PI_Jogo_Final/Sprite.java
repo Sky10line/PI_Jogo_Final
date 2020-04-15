@@ -37,7 +37,7 @@ public class Sprite{
     }
     
     public void pinta(Graphics g){
-        g.setColor(Color.black);
+        g.setColor(Color.white);
         g.fillRect(this.move_x,this.move_y,30,30);
     }
 }
